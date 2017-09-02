@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle git-behind",
+        "command": "git-behind:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "git-behind",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "git-behind:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

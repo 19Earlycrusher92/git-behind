@@ -1,0 +1,23 @@
+{
+  "name": "git-behind",
+  "main": "./lib/git-behind",
+  "version": "0.1.0",
+  "description": "Tells you if your branch is behind and needs to pull/merge",
+  "keywords": [
+    "github", "git", "origin", "refresh", "pull", "master", "check"
+  ],
+  "repository": "https://github.com/atom/git-behind",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
