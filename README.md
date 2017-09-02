@@ -1,5 +1,5 @@
 # git-behind package
 
-Hello world2
+Want to be reminded of the latest changes your team mate is doing? Git Behind will tell you when your local branch falls behind the origin/master branch or any origin branch you specify.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![screenshot](https://raw.githubusercontent.com/ecker00/git-behind/master/demo.gif)
