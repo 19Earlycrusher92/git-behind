@@ -4,7 +4,13 @@
   "version": "0.1.0",
   "description": "Tells you if your branch is behind and needs to pull/merge",
   "keywords": [
-    "github", "git", "origin", "refresh", "pull", "master", "check"
+    "github",
+    "git",
+    "origin",
+    "refresh",
+    "pull",
+    "master",
+    "check"
   ],
   "repository": "https://github.com/atom/git-behind",
   "license": "MIT",
@@ -12,6 +18,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
+    "when": "^3.7.8"
   },
   "consumedServices": {
     "status-bar": {
