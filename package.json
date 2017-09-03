@@ -1,7 +1,7 @@
 {
   "name": "git-behind",
   "main": "./lib/git-behind",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tells you if your branch is behind and needs to pull/merge",
   "keywords": [
     "github",
